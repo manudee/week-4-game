@@ -1,0 +1,37 @@
+1. Pick a random number at the beginning of the game (between 19-120). This is your mainScore.
+2. Set up a variable called totalScore to keep track of crystal's addition. Set it to 0 at the start of the game.
+3. capture the click on any of the crystals.
+
+4. Click on Crystal1 -	
+   a. it should first have its own random number randomCrystal1 between (1,12)
+   b. it should add that generated number to totalScore.
+   c. check if totalScore > mainScore, if yes you lose. 
+   	  Reset the game variables(totalScore,mainScore). randomNumGenerate Crystal1
+   d. check if totalScore = mainScore, if yes , you win. 
+      Reset the game variables(totalScore,mainScore)Also randomNumGenerate On Crystal1
+
+5. Click on Crystal2 -	
+   a. it should first have its own random number randomCrystal2 between (1,12)
+   b. it should add that generated number to totalScore.
+   c. check if totalScore > mainScore, if yes you lose. 
+      Reset the game variables(totalScore,mainScore)Also randomNumGenerate On Crystal2
+   d. check if totalScore = mainScore, if yes , you win. 
+      Reset the game variables(totalScore,mainScore)Also randomNumGenerate On Crystal2
+
+6. Click on Crystal3 -	
+   a. it should first have its own random number randomCrystal3 between (1,12)
+   b. it should add that generated number to totalScore.
+   c. check if totalScore > mainScore, if yes you lose. 
+      Reset the game variables(totalScore,mainScore)Also randomNumGenerate On Crystal3
+   d. check if totalScore = mainScore, if yes , you win. 
+      Reset the game variables(totalScore,mainScore)Also randomNumGenerate On Crystal3
+
+7. Click on Crystal4 -	
+   a. it should first have its own random number randomCrystal4 between (1,12)
+   b. it should add that generated number to totalScore.
+   c. check if totalScore > mainScore, if yes you lose. 
+      Reset the game variables(totalScore,mainScore)Also randomNumGenerate On Crystal4
+   d. check if totalScore = mainScore, if yes , you win. 
+      Reset the game variables(totalScore,mainScore)Also randomNumGenerate On Crystal4
+
+
