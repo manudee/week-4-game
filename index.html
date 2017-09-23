@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>week-4-game</title>
+	<title>CRYSTAL COLLECTOR</title>
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -12,26 +12,79 @@
 <body>
 <div class="container-fluid">
 
+
+
+<div class="row panel">
+	<h1 class="panelheader" id="heading">Crystal Collector Game!</h1>
+</div>
+
+<div class="panel-body">
+	<p>You will be given a random number at the start of the game.</p>
+	<p>There are four crystals below. By clicking on a crystal(Crystal1, Crystal2, Crystal3, Crystal 4) you will add a specific amounts of points to your total score.</p>
+	<p>You win the game by matching your total score to a random number, you lose the game if your total score goes above the random number</p>
+	<p>The value of each crystal is hidden from you until you click on it.</p>
+	<p>Each time when the game starts, the game will change the values of each crystal. </p>
+</div>
+
+
 <div class="row">
+	<div class="col-md-4 panel" >
+	<div><h2>Main Score</h2></div>
+	<div id="mainScore"></div>
+	</div>
 
+	<div class="col-md-4 panel" id="winslosses">
 
+		<div class="row">
+			<div><h2>Wins:</h2></div>
+			<div id="wins"></div>
+		</div>
+
+		<div class="row">
+			<div><h2>Losses:</h2></div>
+			<div id="losses"></div>
+		</div>
+
+	</div>
+</div>
+
+<div class="row">
+<div class="col-md-2" id="crystal11"></div>
+<div class="col-md-2" id="crystal22"></div>
+<div class="col-md-2" id="crystal33"></div>
+<div class="col-md-2" id="crystal44"></div>
+</div>
+
+<div class="row">
 <div class="col-md-2">
 	<button type="button" class="btn btn-primary" id="crystal1">Crystal1</button>
 </div>
-
 <div class="col-md-2">
-	<button type="button" class="btn btn-success" id="crystal2">Crystal2</button>
+	<button type="button" class="btn btn-primary" id="crystal2">Crystal2</button>
+</div>
+<div class="col-md-2">
+	<button type="button" class="btn btn-primary" id="crystal3">Crystal3</button>
+</div>
+<div class="col-md-2">
+	<button type="button" class="btn btn-primary" id="crystal4">Crystal4</button>
+</div>
 </div>
 
-<div class="col-md-2">
-	<button type="button" class="btn btn-warning" id="crystal3">Crystal3</button>
+
+
+<div class="row">
+	<div class="col-md-4 panel" >
+	<div><h2>Your total score is</h2></div>
+	<div id="totalScore"></div>
+	</div>
 </div>
 
-<div class="col-md-2">
-	<button type="button" class="btn btn-danger" id="crystal4">Crystal4</button>
+
+
+
+
 </div>
-</div>
-</div>
+
 
 </body>
 

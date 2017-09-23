@@ -3,7 +3,33 @@ body{
 	background-image: url('../images/background.jpg')
 }
 
-#crystal5 {
+.panel{
+
+	background-color: orange!important;
+	color: white;
+}
+
+p{
+	color: white;
+}
+
+#crystal11 {
+
+	content:url('../images/ruby.jpg');
+}
+
+#crystal22 {
 
 	content:url('../images/diamond.jpg');
+
+}
+
+#crystal33 {
+
+	content:url('../images/emrald.jpg');
+}
+
+#crystal44 {
+
+	content:url('../images/sapphire.jpg');
 }
